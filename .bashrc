@@ -3,10 +3,8 @@
 # clear aliases
 unalias -a
 
-if [ $HOME == /root ]
+if [ $HOME != /root ]
 then
-  PS1="(\[\033[1;31m\]\u\[\033[00m\]):\w>"
-else
   if [ -n "$SSH_CLIENT" ]
   then
     PS1="(\[\033[1;32m\]ssh\[\033[00m\]):\w>"
@@ -20,13 +18,11 @@ else
   fi
 
   umask 022
+
+else
+  PS1="(\[\033[1;31m\]\u\[\033[00m\]):\w>"
 fi
 
-#  Get the defined functions
-if [ -f ~/.bash_fcn ]
-then
-  . ~/.bash_fcn
-fi
 
 # aliases (all users)
 alias cd..='cd ..'
@@ -44,11 +40,14 @@ alias dir='ls --group-directories-first -ahl --color'
 
 alias dircmp='diff -r'
 
-alias edit='nano'
-alias fc='vimdiff -i NONE'
+alias edit='vim'
+
+alias fc='vimdiff'
 alias fc-b='diff'
 
 alias mv='mv -i'
 alias rm='rm -i'
-alias vi='vim -i NONE'
+
+alias vi='vim -i NONE -u NONE'  # \r  -->  ^M
+alias view='nano -v'
 
