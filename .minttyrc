@@ -1,11 +1,11 @@
-Columns=174
+Columns=180
 CursorBlinks=no
 CursorType=block
 Font=Consolas
-FontHeight=12
+FontHeight=11
 FontIsBold=yes
 FontWeight=700
 MiddleClickAction=paste
 RightClickAction=void
-Rows=45
+Rows=49
 Scrollbar=left
