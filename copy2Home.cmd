@@ -10,9 +10,12 @@ GOTO //////////////////////////////////////////////////
 
 ://////////////////////////////////////////////////
 
-copy /V /Y  .bash_profile  %USERPROFILE%
-copy /V /Y  .bashrc        %USERPROFILE%
-copy /V /Y  .minttyrc      %USERPROFILE%
-copy /V /Y  .nanorc        %USERPROFILE%
-copy /V /Y  .vimrc         %USERPROFILE%
+copy /V /Y  .bash_profile  %HOME%
+copy /V /Y  .bashrc        %HOME%
+
+copy /V /Y  .gitconfig     %HOME%
+
+copy /V /Y  .minttyrc      %HOME%
+copy /V /Y  .nanorc        %HOME%
+copy /V /Y  .vimrc         %HOME%
 
