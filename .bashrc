@@ -36,7 +36,7 @@ rlogin() { ssh "$1"@"$2" ; }
 # aliases (all users)
 alias cd..='cd ..'
 alias cls='clear'
-alias cp='cp -ir'
+alias cp='cp -iR'
 
 alias dir-b='ls --group-directories-first -1A --color'  # single column view
 alias dir-d='ls --group-directories-first -dhl --color'  # directory listing with *
@@ -55,6 +55,7 @@ alias fc='vimdiff'
 alias fc-b='diff'
 
 alias mv='mv -i'
+alias printenv='env | sort'
 alias rm='rm -i'
 
 alias vi='vim -i NONE -u NONE'  # \r  -->  ^M
