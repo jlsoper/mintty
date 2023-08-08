@@ -2,6 +2,9 @@
   name = James
   email = soapman@zoho.com
 
+[core]
+  autocrlf = input
+
 [pull]
   ff = only
 
