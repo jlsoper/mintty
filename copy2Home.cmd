@@ -19,3 +19,5 @@ copy /V /Y  .minttyrc      %HOME%
 copy /V /Y  .nanorc        %HOME%
 copy /V /Y  .vimrc         %HOME%
 
+::   unzip ssh.zip   %HOME%
+7z x -tzip ssh.zip -o%HOME% -y
