@@ -1,0 +1,11 @@
+Columns=180
+CursorBlinks=no
+CursorType=block
+Font=Consolas
+FontHeight=11
+FontIsBold=yes
+FontWeight=700
+MiddleClickAction=paste
+RightClickAction=void
+Rows=50
+Scrollbar=left
