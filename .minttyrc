@@ -5,6 +5,7 @@ Font=Consolas
 FontHeight=11
 FontIsBold=yes
 FontWeight=700
+ForegroundColour=255,255,255
 MiddleClickAction=paste
 RightClickAction=void
 Rows=50
