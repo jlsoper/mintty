@@ -1,12 +1,13 @@
-Columns=180
+Columns=170
 CursorBlinks=no
+CursorColour=255,165,0
 CursorType=block
 Font=Consolas
-FontHeight=11
+FontHeight=12
 FontIsBold=yes
 FontWeight=700
 ForegroundColour=255,255,255
 MiddleClickAction=paste
 RightClickAction=void
-Rows=50
+Rows=45
 Scrollbar=left
