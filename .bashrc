@@ -30,7 +30,7 @@ fi
 
 
 # functions
-rlogin() { ssh "$1"@"$2" ; }
+rlogin() { if [ -n "$2" ]; then ssh "$1"@"$2" ; else echo "usage: $FUNCNAME <userID> <host>" ; fi }
 
 
 # aliases (all users)
