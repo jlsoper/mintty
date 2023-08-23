@@ -55,9 +55,12 @@ alias fc='vimdiff'
 alias fc-b='diff'
 
 alias mv='mv -i'
+
+alias path='echo -e ${PATH//:/\\n}'
+
 alias printenv='env | sort'
 alias rm='rm -i'
 
 alias vi='vim -i NONE -u NONE'  # \r  -->  ^M
-alias view='nano -v'
+alias view='vim -MR'
 
