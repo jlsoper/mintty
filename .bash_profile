@@ -14,6 +14,8 @@ PATH=$PATH_MINGW:$PATH_WIN:$PATH_PERL
 
 #####
 
+# WSL 2
+export HOME_L=/l/home/jsoper
 
 export LESSHISTFILE=-
 
