@@ -18,6 +18,8 @@ PATH=$PATH_MINGW:$PATH_WIN:$PATH_PERL
 export HOME_L=/l/home/jsoper
 
 export LESSHISTFILE=-
+export GREP_COLORS='mt=1;33'
+
 
 test -f ~/.bashrc  && . ~/.bashrc
 

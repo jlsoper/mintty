@@ -30,6 +30,7 @@ fi
 
 
 # functions
+fgrep() { if [ -n "$1" ]; then find . -type f -name "*" -exec grep -HIn --color=auto "$1" {} \; ; else echo "usage: $FUNCNAME \"string\"" ; fi }
 rlogin() { if [ -n "$2" ]; then ssh "$1"@"$2" ; else echo "usage: $FUNCNAME <userID> <host>" ; fi }
 
 
